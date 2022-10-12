@@ -1,0 +1,485 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif; 
+}
+
+header {
+    width: 1349px;
+    height: 60px;
+}
+
+.logo img {
+    width: 120px;
+    height: 41px;
+    position: absolute;
+    margin-top: 8px;
+}
+
+.menu {
+    display: inline-block;
+    color: aliceblue;
+    background-color: rgb(0, 128, 0);
+    font-family: 'Oxygen', sans-serif;
+    width: 1349px;
+    height: 60px;
+    
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: -25px;
+    margin-right: 25px;
+    text-align: center;
+    list-style: none;
+    padding: 20px; 
+    font-size: 12px;
+}
+
+.menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.los5html {
+    margin-left: 150px;
+}
+
+.federer-campeon {
+    width: 1349px;
+    height: 665px;
+}
+
+main section article .marca {
+    width: 388px;
+    height: 296px;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: left;
+    font-weight: 700;
+}
+
+
+main .section-principal article .marca {
+    width: 1300px;
+    height: 165px;
+    border-style: none;
+    margin-left: 10px;
+    
+}
+
+main .todos-los-productos .titulo-productos {
+    display: inline-block;
+    margin-left: 550px;
+}
+
+main .contenedor-productos div {
+    display: inline-block;
+    padding-left: 100px;
+}
+
+
+main .todos-los-productos .section-productos .section-productosRaquetas img {
+    width: 137px;
+    height: 134px;
+}
+
+main .todos-los-productos .section-productos .section-productosRaquetas h4 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+main .todos-los-productos .section-productos .section-productosZapatillas img {
+    width: 103px;
+    height: 98px;
+    margin-left: 30px;
+}
+
+main .todos-los-productos .section-productos .section-productosZapatillas h4 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+main .todos-los-productos .section-productos .section-productosIndumentaria img {
+    width: 104px;
+    height: 104px;
+    margin-left: 50px;
+}
+
+main .todos-los-productos .section-productos .section-productosIndumentaria h4 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+main .todos-los-productos .section-productos .section-productosPelotas img {
+    width: 121px;
+    height: 113px;
+}
+
+main .todos-los-productos .section-productos .section-productosPelotas h4 {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+main .todos-los-productos .boton-todos-los-productos h4 {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 525px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+main .section-contacto .section-contacto-titulo h2 {
+    margin-left: 555px;
+}
+
+main .section-contacto .section2-contacto .section2-contacto-texto p {
+    width: 500px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+main .section-contacto .section2-contacto .section2-contacto-texto h3 {
+    margin-left: 10px;
+}
+
+main .section-contacto .section2-contacto .section2-contacto-texto ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+main .section-contacto .section2-contacto .section3-contacto-formulario .contactoFormularioPartes {
+    width: 195px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 5px;
+    border-width: 0.1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+main .section-contacto .section2-contacto .section3-contacto-formulario .contactoFormularioPartesDos {
+    width: 195px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 5px;
+    border-width: 0.1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;    
+}
+
+main .section-contacto .section2-contacto .section3-contacto-formulario label {
+    display: inline-block;
+}
+
+main .section-contacto .section2-contacto .section3-contacto-formulario textarea {
+    height: 200px;
+    resize: none;
+    border-width: 0.1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 400px;
+}
+
+main .section-contacto .section2-contacto .section3-contacto-formulario .botonEnviar {
+    color: #F4ECDC;
+    background-color: rgb(0, 128, 0);
+    border-color: rgb(0, 128, 0);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1rem;
+    padding: 10px;    
+}
+
+main .section-contacto .section2-contacto .section3-contacto-formulario {
+    margin-left: 550px;
+    margin-top: -200px;
+
+}
+
+footer {
+    width: 1350px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "news PreguntasFrecuentes datos";
+}
+
+footer .news {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid rgb(0, 128, 0) 10px;
+    border-radius: 1rem;
+    padding: 5px;
+    grid-area: news;
+}
+
+footer .preguntasFrecuentes {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid rgb(0, 128, 0) 10px;
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+footer .preguntasFrecuentes li {
+    list-style: none;
+}
+
+footer .preguntasFrecuentes li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+footer .datos {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid rgb(0, 128, 0) 10px;
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+footer .datos li {
+    list-style: none;
+}
+
+
+/*Aca comienzo a poner las propiedades para el html de raquetas*/
+
+main .contenedor-raquetas div {
+    display: inline-block;
+    padding-left: 100px;  
+}
+
+/*Aca va el color del titulo del modelo 1*/
+main .todos-los-productos .section-raquetas .section-raquetasModeloUno h4 {
+    color: rgb(0, 0, 0);
+}
+
+/*Aca va el color del texto del precio del modelo 1*/
+main .todos-los-productos .section-raquetas .section-raquetasModeloUno h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Aca va el color del titulo del modelo 2*/
+main .todos-los-productos .section-raquetas .section-raquetasModeloDos h4 {
+    color: rgb(0, 0, 0);
+}
+
+/*Aca va el color del texto del precio del modelo 2*/
+main .todos-los-productos .section-raquetas .section-raquetasModeloDos h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Aca va el color del titulo del modelo 3*/
+main .todos-los-productos .section-raquetas .section-raquetasModeloTres h4 {
+    color: rgb(0, 0, 0);
+}
+
+
+/*Aca va el color del texto del precio del modelo 3*/
+main .todos-los-productos .section-raquetas .section-raquetasModeloTres h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Aca va el color del titulo del modelo 4*/
+main .todos-los-productos .section-raquetas .section-raquetasModeloCuatro h4 {
+    color: rgb(0, 0, 0);
+}
+
+/*Aca va el color del texto del precio del modelo 4*/
+main .todos-los-productos .section-raquetas .section-raquetasModeloCuatro h5 span {
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+/*Aca comienzo a poner las propiedades para el html de calzado*/
+
+main .contenedor-calzado div {
+    display: inline-block;
+    padding-left: 50px;  
+}
+
+/*Aca va el color y tamaño del titulo del modelo 1*/
+main .todos-los-productos .section-calzado .section-calzadoModeloUno h4 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+/*Aca va el color del texto del precio del modelo 1*/
+main .todos-los-productos .section-calzado .section-calzadoModeloUno h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Aca va el color y tamaño del titulo del modelo 2*/
+main .todos-los-productos .section-calzado .section-calzadoModeloDos h4 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+/*Aca va el color del texto del precio del modelo 2*/
+main .todos-los-productos .section-calzado .section-calzadoModeloDos h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Aca va el color y tamaño del titulo del modelo 3*/
+main .todos-los-productos .section-calzado .section-calzadoModeloTres h4 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+
+/*Aca va el color del texto del precio del modelo 3*/
+main .todos-los-productos .section-calzado .section-calzadoModeloTres h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Aca va el color y tamaño del titulo del modelo 4*/
+main .todos-los-productos .section-calzado .section-calzadoModeloCuatro h4 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+/*Aca va el color del texto del precio del modelo 4*/
+main .todos-los-productos .section-calzado .section-calzadoModeloCuatro h5 span {
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+/*Aca comienzo a poner las propiedades para el html de indumentaria*/
+
+main .contenedor-indumentaria div {
+    display: inline-block;
+    padding-left: 50px;  
+}
+
+/*Aca va el color y tamaño del titulo del modelo 1*/
+main .todos-los-productos .section-indumentaria .section-indumentariaModeloUno h4 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+/*Aca va el color del texto del precio del modelo 1*/
+main .todos-los-productos .section-indumentaria .section-indumentariaModeloUno h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Aca va el color y tamaño del titulo del modelo 2*/
+main .todos-los-productos .section-indumentaria .section-indumentariaModeloDos h4 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+/*Aca va el color del texto del precio del modelo 2*/
+main .todos-los-productos .section-indumentaria .section-indumentariaModeloDos h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Aca va el color y tamaño del titulo del modelo 3*/
+main .todos-los-productos .section-indumentaria .section-indumentariaModeloTres h4 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+
+/*Aca va el color del texto del precio del modelo 3*/
+main .todos-los-productos .section-indumentaria .section-indumentariaModeloTres h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Aca va el color y tamaño del titulo del modelo 4*/
+main .todos-los-productos .section-indumentaria .section-indumentariaModeloCuatro h4 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+/*Aca va el color del texto del precio del modelo 4*/
+main .todos-los-productos .section-indumentaria .section-indumentariaModeloCuatro h5 span {
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+/*Aca comienzo a poner las propiedades para el html de pelotastenis*/
+
+main .contenedor-pelotastenis div {
+    display: inline-block;
+    padding-left: 50px;  
+}
+
+/*Aca va el color y tamaño del titulo del modelo 1*/
+main .todos-los-productos .section-pelotastenis .section-pelotastenisModeloUno h4 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+/*Aca va el color del texto del precio del modelo 1*/
+main .todos-los-productos .section-pelotastenis .section-pelotastenisModeloUno h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Aca va el color y tamaño del titulo del modelo 2*/
+main .todos-los-productos .section-pelotastenis .section-pelotastenisModeloDos h4 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+/*Aca va el color del texto del precio del modelo 2*/
+main .todos-los-productos .section-pelotastenis .section-pelotastenisModeloDos h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Aca va el color y tamaño del titulo del modelo 3*/
+main .todos-los-productos .section-pelotastenis .section-pelotastenisModeloTres h4 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+
+/*Aca va el color del texto del precio del modelo 3*/
+main .todos-los-productos .section-pelotastenis .section-pelotastenisModeloTres h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Aca va el color y tamaño del titulo del modelo 4*/
+main .todos-los-productos .section-pelotastenis .section-pelotastenisModeloCuatro h4 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+/*Aca va el color del texto del precio del modelo 4*/
+main .todos-los-productos .section-pelotastenis .section-pelotastenisModeloCuatro h5 span {
+    color: rgb(255, 0, 0);
+}
+
+/*Acá voy a cambiar el tamaño de la imagen de los modelos 1,2,3 y 4*/
+main .todos-los-productos .section-pelotastenis img {
+    width: 280px;
+    height: 280px;
+}
